@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="#pulsar" v-smooth-scroll v-scroll-spy>
-          <h1 class="title is-4 is-uppercase has-text-white">Pulsar</h1>
+          <h1 class="title is-4 is-uppercase has-text-white">TonSound</h1>
         </a>
 
         <div class="navbar-burger burger" :class="{ 'is-active': isNavbarOpen }" @click="toggleNavbar">
