@@ -15,9 +15,9 @@
 
       <div class="navbar-menu" :class="{ 'is-active': isNavbarOpen }">
         <div class="navbar-end">
-          <a href="#about" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Projects</a>
-          <a href="#team" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Team</a>
-          <a href="#contact" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Contact</a>
+          <a href="#about" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Projecto</a>
+          <a href="#team" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Equipo</a>
+          <a href="#contact" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Contacto</a>
 
           <a class="navbar-item" href="https://medium.com/@pulsar.dev.team" target="_blank" rel="noopener">
             <span class="icon"><i class="fa fa-medium"></i></span>
