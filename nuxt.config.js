@@ -53,6 +53,6 @@ module.exports = {
     '~/plugins/vee-validate.js'
   ],
   modules: [
-    ['@nuxtjs/google-analytics', {ua: 'UA-99632110-3'}]
+    ['@nuxtjs/google-analytics', {ua: ''}]
   ]
 }
