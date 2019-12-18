@@ -25,7 +25,7 @@
         <div class="field">
           <label class="label" for="message">Mensaje</label>
           <div class="control">
-            <textarea v-validate="'required'" v-model="message" class="textarea" :class="{ 'is-danger': errors.has('message') }" id="message" name="message" placeholder="Message" required></textarea>
+            <textarea v-validate="'required'" v-model="message" class="textarea" :class="{ 'is-danger': errors.has('message') }" id="message" name="message" placeholder="Mensaje" required></textarea>
           </div>
           <span v-show="errors.has('message')" class="help is-danger">{{ errors.first('message') }}</span>
         </div>
