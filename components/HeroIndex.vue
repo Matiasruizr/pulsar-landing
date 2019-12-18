@@ -13,7 +13,7 @@
           TonSound
         </h1>
         <h2 class="subtitle">
-          Hacemos soluciones y aplicaciones web modernas y ha medida.
+          Hacemos soluciones y aplicaciones web modernas y a medida.
         </h2>
         <p class="field">
           <a href="#about" class="button is-large is-light is-outlined" aria-label="View more" v-smooth-scroll>

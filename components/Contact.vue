@@ -1,11 +1,11 @@
 <template>
   <section id="contact" class="section is-medium" style="background-color: rgba(0, 0, 0, 0.7)">
     <div class="container">
-      <h1 class="title is-spaced has-text-centered has-text-grey-lighter">Contact Us</h1>
+      <h1 class="title is-spaced has-text-centered has-text-grey-lighter">Contáctanos</h1>
 
       <form action="https://formspree.io/pulsar.dev.team@gmail.com" method="POST">
         <div class="field">
-          <label class="label" for="name">Name</label>
+          <label class="label" for="name">Nombre</label>
           <div class="control">
             <input v-validate="'required'" v-model="name" class="input" :class="{ 'is-danger': errors.has('name') }" id="name" name="name" type="text" placeholder="Name" required>
           </div>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="field">
-          <label class="label" for="message">Message</label>
+          <label class="label" for="message">Mensaje</label>
           <div class="control">
             <textarea v-validate="'required'" v-model="message" class="textarea" :class="{ 'is-danger': errors.has('message') }" id="message" name="message" placeholder="Message" required></textarea>
           </div>
@@ -32,10 +32,10 @@
 
         <div class="field is-grouped">
           <div class="control">
-            <input type="submit" class="button is-primary" value="Submit">
+            <input type="submit" class="button is-primary" value="Enviar">
           </div>
           <div class="control">
-            <button class="button is-light" @click="cancel">Cancel</button>
+            <button class="button is-light" @click="cancel">Cancelar</button>
           </div>
         </div>
       </form>
