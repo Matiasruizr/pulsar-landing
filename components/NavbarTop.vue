@@ -19,13 +19,13 @@
           <a href="#team" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Equipo</a>
           <a href="#contact" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Contacto</a>
 
-          <a class="navbar-item" href="https://medium.com/@pulsar.dev.team" target="_blank" rel="noopener">
+          <!-- <a class="navbar-item" href="https://medium.com/@pulsar.dev.team" target="_blank" rel="noopener">
             <span class="icon"><i class="fa fa-medium"></i></span>
-          </a>
+          </a> -->
 
-          <a class="navbar-item" href="https://github.com/pulsardev" target="_blank" rel="noopener">
-            <span class="icon"><i class="fa fa-github"></i></span>
-          </a>
+          <!-- <a class="navbar-item" href="https://github.com/pulsardev" target="_blank" rel="noopener">
+            <span class="icon"><i class="fa fa-github"></i></span> -->
+          <!-- </a> -->
         </div>
       </div>
     </div>
