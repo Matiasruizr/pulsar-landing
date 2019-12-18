@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Pulsar',
+    title: 'TonSound',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Pulsar - We make modern web applications and websites' }
+      { hid: 'description', name: 'description', content: 'TonSound - Hacemos soluciones y aplicaciones web modernas y a medida.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

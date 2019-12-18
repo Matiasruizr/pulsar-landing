@@ -1,8 +1,8 @@
 {
-  "name": "pulsar-landing",
+  "name": "tonsound-landing",
   "version": "1.0.1",
   "description": "Nuxt.js project",
-  "author": "Mathieu Morainville <mathieumorainville@hotmail.com>",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",
