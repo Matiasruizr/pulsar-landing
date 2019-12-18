@@ -2,7 +2,7 @@
   <section id="team" class="hero is-medium" style="background-color: whitesmoke">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title is-spaced">The Team</h1>
+        <h1 class="title is-spaced">El Equipo</h1>
 
         <div class="columns">
           <div class="column">
@@ -32,21 +32,21 @@
       return {
         persons: [
           {
-            id: 'mmorainville',
-            name: 'Mathieu Morainville',
+            id: 'mruiz',
+            name: 'Matiaz Ruiz',
             avatar: 'https://avatars1.githubusercontent.com/u/1155743?v=4&s=460',
             image: '/images/team/superman.png',
             description: '<em>Vueman</em>',
-            skills: ['Vue.js', 'JavaScript', 'Design', 'Node.js'],
+            skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Node.js', 'React','PHP', 'Ruby'],
             link: 'https://github.com/mmorainville'
           },
           {
-            id: 'sylver-john',
-            name: 'Sylver-John Imhoff',
+            id: 'jmontes',
+            name: 'José Miguel Montes',
             avatar: 'https://avatars1.githubusercontent.com/u/6161547?v=4&s=460',
             image: '/images/team/batman.jpg',
             description: '<em>Golang lover</em>',
-            skills: ['Golang', 'Vue.js', 'JavaScript'],
+            skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Python', 'Node.js'],
             link: 'https://github.com/sylver-john'
           },
           {
