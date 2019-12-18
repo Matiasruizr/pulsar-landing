@@ -7,7 +7,7 @@
         <div class="field">
           <label class="label" for="name">Nombre</label>
           <div class="control">
-            <input v-validate="'required'" v-model="name" class="input" :class="{ 'is-danger': errors.has('name') }" id="name" name="name" type="text" placeholder="Name" required>
+            <input v-validate="'required'" v-model="name" class="input" :class="{ 'is-danger': errors.has('name') }" id="name" name="name" type="text" placeholder="Nombre" required>
           </div>
           <span v-show="errors.has('name')" class="help is-danger">{{ errors.first('name') }}</span>
         </div>
