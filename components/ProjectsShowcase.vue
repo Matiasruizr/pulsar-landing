@@ -5,7 +5,7 @@
         <div class="container has-text-centered">
           <h1 class="title is-spaced">Nuestros Proyectos</h1>
           <h2 class="subtitle">
-            Hacemos proyectos con la mejor tecnología, cobramos por hora de trabajo y respondemos <strong>siempre</strong>. Aquí algunos de nuestros trabajos.
+            Hacemos proyectos con la mejor tecnología, cobramos por hora de trabajo y respondemos <strong>siempre</strong>. Abajo algunos de nuestros trabajos
           </h2>
         </div>
       </div>
