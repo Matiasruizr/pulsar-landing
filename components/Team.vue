@@ -36,7 +36,7 @@
             name: 'Matiaz Ruiz',
             avatar: 'https://avatars1.githubusercontent.com/u/1155743?v=4&s=460',
             image: '/images/team/superman.png',
-            description: '<em>Vueman</em>',
+            description: '<em>Líder Técnico</em>',
             skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Node.js', 'React','PHP', 'Ruby'],
             link: 'https://github.com/mmorainville'
           },
@@ -45,7 +45,7 @@
             name: 'José Miguel Montes',
             avatar: 'https://avatars1.githubusercontent.com/u/6161547?v=4&s=460',
             image: '/images/team/batman.jpg',
-            description: '<em>Golang lover</em>',
+            description: '<em>Líder Comercial</em>',
             skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Python', 'Node.js'],
             link: 'https://github.com/sylver-john'
           },
