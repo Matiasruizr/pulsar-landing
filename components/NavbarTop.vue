@@ -15,7 +15,7 @@
 
       <div class="navbar-menu" :class="{ 'is-active': isNavbarOpen }">
         <div class="navbar-end">
-          <a href="#about" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Projecto</a>
+          <a href="#about" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Proyecto</a>
           <a href="#team" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Equipo</a>
           <a href="#contact" class="navbar-item is-uppercase" v-smooth-scroll v-scroll-spy>Contacto</a>
 
