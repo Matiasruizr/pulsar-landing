@@ -32,31 +32,31 @@
       return {
         persons: [
           {
-            id: 'mruiz',
-            name: 'Matiaz Ruiz',
-            avatar: 'https://avatars1.githubusercontent.com/u/1155743?v=4&s=460',
-            image: '/images/team/superman.png',
-            description: '<em>Líder Técnico</em>',
-            skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Node.js', 'React','PHP', 'Ruby'],
-            link: 'https://github.com/mmorainville'
+            id: '',
+            name: 'Área Técnica',
+            avatar: '',
+            image: '/images/team/bielsa.jpg',
+            description: '<em>10 Integrantes</em>',
+            skills: [ 'JavaScript', 'Vue.js', 'Angular.js', 'Node.js', 'React','PHP', 'BI','Ruby', 'Python', 'AWS', 'SQL', 'NoSQL'],
+            link: ''
           },
           {
-            id: 'jmontes',
-            name: 'José Miguel Montes',
-            avatar: 'https://avatars1.githubusercontent.com/u/6161547?v=4&s=460',
-            image: '/images/team/batman.jpg',
-            description: '<em>Líder Comercial</em>',
-            skills: ['Vue.js', 'JavaScript', 'Angular.js', 'Python', 'Node.js'],
-            link: 'https://github.com/sylver-john'
+            id: '',
+            name: 'Área Proyectos',
+            avatar: '',
+            image: '/images/team/El-lobo-de-wall-street3-1024x682.jpg',
+            description: '<em>3 Integrantes</em>',
+            skills: ['Mktg Digital', 'Ecommerce', 'Planning','Vue.js', 'JavaScript', 'Angular.js', 'Python', 'Node.js'],
+            link: ''
           },
           {
-            id: 'Outpox',
-            name: 'Guillaume Migeon',
-            avatar: 'https://avatars2.githubusercontent.com/u/3439246?v=4&s=460',
-            image: '/images/team/flash.jpg',
-            description: '<em>Extension maker</em>',
-            skills: ['Vue.js', 'JavaScript', 'Node.js'],
-            link: 'https://github.com/Outpox'
+            id: '',
+            name: 'Especialidades',
+            avatar: '',
+            image: '/images/team/monos.jpg',
+            description: '<em>3 Integrantes</em>',
+            skills: ['Big data', 'Econometría', 'estadística', 'BI'],
+            link: ''
           }
         ]
       }

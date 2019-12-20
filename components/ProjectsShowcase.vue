@@ -13,29 +13,29 @@
 
     <div class="c-projects__showcase tile is-gapless is-ancestor">
       <div class="tile is-5 is-vertical is-parent">
-        <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('https://github.com/pulsardev/netsix')">
-          <img src="~/assets/images/projects/netsix.png" alt="Netsix">
+        <figure class="c-projects__thumbnail image tile is-child" >
+          <img src="~/assets/images/projects/clique.png" alt="Clique">
           <figcaption class="has-text-centered">
-            <h2 class="title">Netsix</h2>
-            <p class="subtitle">Stream videos to your friends.</p>
+            <h2 class="title">Clique</h2>
+            <p class="subtitle">Ecommerce</p>
           </figcaption>
         </figure>
 
-        <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('https://github.com/pulsardev/mendelable')">
-          <img src="~/assets/images/projects/mendelable.png" alt="Mendelable">
+        <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('https://notorious.cl')">
+          <img src="~/assets/images/projects/notorious.jpg" alt="Notorious">
           <figcaption class="has-text-centered">
-            <h2 class="title">Mendelable</h2>
-            <p class="subtitle">A modern and dynamic periodic table.</p>
+            <h2 class="title">Notorious</h2>
+            <p class="subtitle">Growshop Online</p>
           </figcaption>
         </figure>
       </div>
 
       <div class="tile is-parent">
-        <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('https://freatle.surge.sh/')">
-          <img src="~/assets/images/projects/freatle.png" alt="Freatle">
+        <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('http://unionx.cl')">
+          <img src="~/assets/images/projects/unionx.jpg" alt="Unionx">
           <figcaption class="has-text-centered">
-            <h2 class="title">Freatle</h2>
-            <p class="subtitle">Let's party! Who brings what?</p>
+            <h2 class="title">Unionx</h2>
+            <p class="subtitle">Gestión para importadores y distribuidores</p>
           </figcaption>
         </figure>
       </div>

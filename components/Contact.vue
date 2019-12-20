@@ -2,6 +2,10 @@
   <section id="contact" class="section is-medium" style="background-color: rgba(0, 0, 0, 0.7)">
     <div class="container">
       <h1 class="title is-spaced has-text-centered has-text-grey-lighter">Contáctanos</h1>
+      <h4 class="mb-1">¿Quieres desarrollar tu proyecto con nosotros?</h4>
+              <p
+                class="mt-0"
+              >Tu proyecto es muy importante para nosotros, contactanos y te responderemos a la brevedad.</p>
 
       <form action="https://formspree.io/pulsar.dev.team@gmail.com" method="POST">
         <div class="field">

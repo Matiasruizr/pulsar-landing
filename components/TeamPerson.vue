@@ -11,16 +11,16 @@
       <div class="media">
         <div class="media-left">
           <figure class="image is-48x48">
-            <img class="c-avatar" :src="person.avatar" alt="Image">
+            <!-- <img class="c-avatar" :src="person.avatar" alt="Image"> -->
           </figure>
         </div>
         <div class="media-content">
           <p class="title is-4">{{ person.name }}</p>
-          <p class="subtitle is-6">@{{ person.id }}</p>
+          <!-- <p class="subtitle is-6">@{{ person.id }}</p> -->
         </div>
       </div>
 
-      <div class="content has-text-right">
+      <div class="content has-text-left">
         <span v-html="person.description"></span>
         <br>
         <span v-for="(skill, index)  in person.skills">
