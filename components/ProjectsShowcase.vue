@@ -21,12 +21,12 @@
           </figcaption>
         </figure>
       </div>
-      
+
       <div class="tile is-5 is-vertical is-parent">
         <figure class="c-projects__thumbnail image tile is-child" >
-          <img src="~/assets/images/projects/clique.png" alt="Clique">
+          <img src="~/assets/images/projects/clique2.png" alt="Clique">
           <figcaption class="has-text-centered">
-            <h2 class="title">Clique2</h2>
+            <h2 class="title">Clique</h2>
             <p class="subtitle">Ecommerce</p>
           </figcaption>
         </figure>
