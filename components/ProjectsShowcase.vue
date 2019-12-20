@@ -14,7 +14,7 @@
     <div class="c-projects__showcase tile is-gapless is-ancestor">
       <div class="tile is-5 is-vertical is-parent">
         <figure class="c-projects__thumbnail image tile is-child" >
-          <img src="../assets/images/projects/clique.png" alt="Clique">
+          <img src="~/assets/images/projects/clique.png" alt="Clique">
           <figcaption class="has-text-centered">
             <h2 class="title">Clique</h2>
             <p class="subtitle">Ecommerce</p>
@@ -22,7 +22,7 @@
         </figure>
 
         <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('https://notorious.cl')">
-          <img src="../assets/images/projects/notorious.jpg" alt="Notorious">
+          <img src="~/assets/images/projects/notorious.png" alt="Notorious">
           <figcaption class="has-text-centered">
             <h2 class="title">Notorious</h2>
             <p class="subtitle">Growshop Online</p>
@@ -32,7 +32,7 @@
 
       <div class="tile is-parent">
         <figure class="c-projects__thumbnail image tile is-child" @click="openUrl('http://unionx.cl')">
-          <img src="../assets/images/projects/unionx.jpg" alt="Unionx">
+          <img src="~/assets/images/projects/unionx.png" alt="Unionx">
           <figcaption class="has-text-centered">
             <h2 class="title">Unionx</h2>
             <p class="subtitle">Gestión para importadores y distribuidores</p>
