@@ -1,7 +1,7 @@
 <template>
-  <section id="contact" class="section is-medium" style="background-color: rgba(0, 0, 0, 0.7)">
-    <div class="container">
-      <h1 class="title is-spaced has-text-centered has-text-grey-lighter">Contáctanos</h1>
+  <section id="contact"  class="section is-medium" style="background-color: rgba(245, 245, 245, 1)">
+    <div class="container has-text-centered"  align="center" fluid style="width: 50%">
+      <h1 class="title is-spaced">Contáctanos</h1>
       <h4 class="mb-1">¿Quieres desarrollar tu proyecto con nosotros?</h4>
               <p
                 class="mt-0"
