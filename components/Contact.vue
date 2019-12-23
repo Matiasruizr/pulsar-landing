@@ -1,6 +1,6 @@
 <template>
   <section id="contact"  class="section is-medium" style="background-color: rgba(245, 245, 245, 1)">
-    <div class="container has-text-centered"  align="center" fluid style="padding: 200px; width: 100%">
+    <div class="container has-text-centered"  align="center" fluid style="padding: 30%; width: 100%">
       <h1 class="title is-spaced">Contáctanos</h1>
       <h4 class="subtitle">Construyamos algo increible</h4>
               <p
