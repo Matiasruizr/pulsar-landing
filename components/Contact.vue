@@ -2,7 +2,7 @@
   <section id="contact"  class="section is-medium" style="background-color: rgba(245, 245, 245, 1)">
     <div class="container has-text-centered"  align="center" fluid style="padding: 200px; width: 100%">
       <h1 class="title is-spaced">Contáctanos</h1>
-      <h4 class="mb-1">¿Quieres desarrollar tu proyecto con nosotros?</h4>
+      <h4 class="subtitle">Construyamos algo increible</h4>
               <p
                 class="mt-0"
               >Tu proyecto es muy importante para nosotros, contactanos y te responderemos a la brevedad.</p>
