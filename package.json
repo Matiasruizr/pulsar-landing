@@ -20,9 +20,12 @@
     "intersection-observer": "^0.4.3",
     "nuxt": "^2.11.0",
     "smoothscroll-polyfill": "^0.3.6",
-    "vee-validate": "^2.2.14"
+    "vee-validate": "^2.2.14",
+    "vue-responsive": "^1.1.0",
+    "vuetify": "^2.0.0"
   },
   "devDependencies": {
+    "@mdi/font": "^4.7.95",
     "babel-eslint": "^7.2.3",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",

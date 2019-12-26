@@ -6,16 +6,16 @@
               <p
                 class="mt-0"
               >Tu proyecto es muy importante para nosotros, contactanos y te responderemos a la brevedad.</p>
-
-        <div class="field" fluid style="padding: 30%">
+        <br/>
+        <div class="field" >
           <label class="label" for="name">Nombre</label>
           <div class="control">
-            <input v-validate="'required'" v-model="name" class="input" :class="{ 'is-danger': errors.has('name') }" id="name" name="name" type="text" placeholder="Nombre" required>
+            <input v-validate="'required'" v-model="name"  class="input" :class="{ 'is-danger': errors.has('name') }" id="name" name="name" type="text" placeholder="Nombre" required>
           </div>
           <span v-show="errors.has('name')" class="help is-danger">{{ errors.first('name') }}</span>
         </div>
 
-        <div class="field" fluid style="padding: 30%">
+        <div class="field">
           <label class="label" for="email">Email</label>
           <div class="control has-icons-left has-icons-right">
             <input v-validate="'required|email'" v-model="email" class="input" :class="{ 'is-danger': errors.has('email') }" id="email" name="email" type="text" placeholder="Email" required>
@@ -25,7 +25,7 @@
           <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
         </div>
 
-        <div class="field" fluid style="padding: 30%">
+        <div class="field" >
           <label class="label" for="message">Mensaje</label>
           <div class="control">
             <textarea v-validate="'required'" v-model="message" class="textarea" :class="{ 'is-danger': errors.has('message') }" id="message" name="message" placeholder="Mensaje" required></textarea>
@@ -33,7 +33,7 @@
           <span v-show="errors.has('message')" class="help is-danger">{{ errors.first('message') }}</span>
         </div>
 
-        <div class="field is-grouped" fluid style="padding: 30%">
+        <div class="field is-grouped">
           <div class="control">
             <input type="submit" class="button is-primary" value="Enviar">
           </div>
@@ -46,6 +46,8 @@
 </template>
 
 <script>
+
+
   export default {
     $_veeValidate: {
       validator: 'new'

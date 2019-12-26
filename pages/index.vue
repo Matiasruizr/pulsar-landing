@@ -8,7 +8,9 @@
 
     <team></team>
 
-    <contact></contact>
+    <!-- <contact></contact> -->
+
+    <contacto></contacto>
 
 
     <footer class="footer" style="background-color: hsl(0, 0%, 8%)">
@@ -37,6 +39,7 @@
   import ProjectsShowcase from '~/components/ProjectsShowcase.vue'
   import Team from '~/components/Team.vue'
   import Contact from '~/components/Contact.vue'
+  import Contacto from '~/components/Contacto.vue'
 
 
   export default {
@@ -46,6 +49,7 @@
       ProjectsShowcase,
       Team,
       Contact,
+      Contacto,
 
     }
   }
