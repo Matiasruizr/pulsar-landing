@@ -39,7 +39,7 @@
         :disabled="!valid"
         color="blue"
         class="my-2"
-        @click="enviar"
+        @click="enviar(message, email, name)"
       >
         Enviar
       </v-btn>
@@ -58,6 +58,8 @@
 
 
 <script>
+import axios from 'axios'
+
   export default {
     data: () => ({
       valid: true,
@@ -75,19 +77,54 @@
     }),
 
     methods: {
-      enviar () {
-        if (this.$refs.form.validate()) {
-          // console.log(email)
-        }
+      enviar (message, email, name) {
+        const options = {
+        method: 'post',
+        url: 'https://cors-anywhere.herokuapp.com/https://api.sendgrid.com/v3/mail/send',
+        data: {
+              personalizations: [
+                {
+                  to: [
+                    {
+                      email: 'jmmontes@notorious.cl',
+                    },
+                  ],
+                  subject: 'Consulta en TONSOUND de ' +  name,
+                },
+              ],
+              from: {
+                email: email,
+              },
+              content: [
+                {
+                  type: 'text/plain',
+                  value: 'Nueva consulta en TONSOUND \n ' + message,
+                },
+              ],
+        }, 
+        headers: 
+                  {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer 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',
+                    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+                    'Access-Control-Allow-Headers': 'X-Requested-With, Origin,  Content-Type, Accept',
+                  },
+
+              
+      };
+      axios(options);
       },
       reset () {
-        this.$refs.form.reset()
+        this.message = ''
+        this.email = ''
+        this.name = ''
       },
       resetValidation () {
         this.$refs.form.resetValidation()
       },
-    },
-  }
+      },
+    };
+
 </script>
 
 <style lang="scss">
